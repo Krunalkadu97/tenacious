@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tenacious/static/css/main.968a938c.css",
-    "main.js": "/tenacious/static/js/main.7db39c18.js",
+    "main.css": "/tenacious/static/css/main.e1dcc67a.css",
+    "main.js": "/tenacious/static/js/main.438cd113.js",
     "static/js/787.88f3d228.chunk.js": "/tenacious/static/js/787.88f3d228.chunk.js",
     "static/media/banner.png": "/tenacious/static/media/banner.e206daaeaebb40c995b7.png",
     "static/media/bg.png": "/tenacious/static/media/bg.02b0f324838a5a891388.png",
@@ -10,12 +10,12 @@
     "static/media/banner-2.png": "/tenacious/static/media/banner-2.5f1691f24db0ddea02b3.png",
     "static/media/con.png": "/tenacious/static/media/con.9014b0f96ade2309a66f.png",
     "index.html": "/tenacious/index.html",
-    "main.968a938c.css.map": "/tenacious/static/css/main.968a938c.css.map",
-    "main.7db39c18.js.map": "/tenacious/static/js/main.7db39c18.js.map",
+    "main.e1dcc67a.css.map": "/tenacious/static/css/main.e1dcc67a.css.map",
+    "main.438cd113.js.map": "/tenacious/static/js/main.438cd113.js.map",
     "787.88f3d228.chunk.js.map": "/tenacious/static/js/787.88f3d228.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.968a938c.css",
-    "static/js/main.7db39c18.js"
+    "static/css/main.e1dcc67a.css",
+    "static/js/main.438cd113.js"
   ]
 }
