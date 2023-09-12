@@ -1,6 +1,5 @@
 import React from "react";
 import { navigationData } from "./data";
-import { NavLink } from "react-router-dom";
 
 const NavMobile = ({ onClick }) => {
   return (
@@ -10,7 +9,7 @@ const NavMobile = ({ onClick }) => {
       </button>
       {navigationData.map((item, index) => (
         <li key={index} className="hover:text-lime-600">
-          <NavLink to={item.route}>{item.name}</NavLink>
+          <a href="#">{item.name}</a>
         </li>
       ))}
     </ul>

@@ -13,7 +13,7 @@ const Home = () => {
     offset: 0,
   });
   return (
-    <div className="hidden-overflow">
+    <div>
       <Hero />
       <About />
       <Services />

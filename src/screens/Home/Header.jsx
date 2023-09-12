@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Nav from "./Nav";
 import NavMobile from "./NavMobile";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
-  const { pathname } = useLocation();
-  let path = pathname.split("/");
+
   return (
     <header
       className="mb-12 lg:mb-0 z-20 relative px-4"
@@ -17,13 +16,13 @@ const Header = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between ">
           <div className="flex items-center gap-x-[720px] lg:gap-x-[520px]">
-            <NavLink to={"/"}>
+            <a href="#">
               <p className="self-center text-white text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Tenacious
               </p>
-            </NavLink>
+            </a>
             <div className="hidden lg:flex ">
-              <Nav ishome={true} path={path} />
+              <Nav ishome={true} path={""} />
             </div>
           </div>
           <div

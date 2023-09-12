@@ -1,6 +1,6 @@
 import React from "react";
 import { navigationData } from "./data";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const Nav = ({ ishome, path }) => {
   return (
@@ -18,7 +18,7 @@ const Nav = ({ ishome, path }) => {
                   : "text-sky-500 mt-5 px-5 py-3 hover:text-cyan-950 hover:bg-cyan-50 hover:rounded-xl"
               }
             >
-              <NavLink to={`/${item.route}`}>{item.name}</NavLink>
+              <a href="#">{item.name}</a>
             </li>
           );
         })}
