@@ -3,12 +3,14 @@ import Navigation from "./navigation/Navigation";
 import { Home } from "./screens";
 
 function App() {
-  return (
-    <BrowserRouter>
-      {/* <Navigation /> */}
-      <Home />
-    </BrowserRouter>
-  );
+  return <Home />;
 }
 
 export default App;
+
+/**
+ *  // <BrowserRouter>
+      <Navigation /> 
+      <Home />
+    // </BrowserRouter>
+ */
